@@ -76,3 +76,8 @@ export function enviarSolicitud(metodo, parametros, url, mensaje) {
             }
         });
 }
+
+export function archiveNote(id) {
+    return axios.put(`http://127.0.0.1:8000/api/notes/${id}/archive`);
+}
+

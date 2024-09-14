@@ -1,4 +1,4 @@
-<template>
+<template style="background-color: #faf8ff;">
     <div class="row mt-3">
         <div class="col-md-6 offset-md-3">
 
